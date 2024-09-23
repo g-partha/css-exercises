@@ -47,17 +47,13 @@ a {
   padding: 10px;
 }
 
-.header .left-links, .header .right-links {
-  display: flex;
-  gap: 10px;
-}
-
 .content {
   display: flex;
   flex-direction: column;
   padding: 10px;
   align-items: center;
   gap: 10px;
+  flex: 1;
 }
 
 .buttons button {
@@ -71,7 +67,7 @@ a {
   background: #eeeeee;
 }
 
-.footer .left-links, .footer .right-links {
+ul {
   display: flex;
   gap: 10px;
 }
